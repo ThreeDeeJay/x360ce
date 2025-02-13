@@ -5,7 +5,7 @@ env:
   Branch: ${{github.ref_name}}
   Platform: #Any CPU|Win32|x86|x64 - Check .sln file for available ones
   Configuration: Release
-  Artifacts: build/Release/
+  Artifacts: x360ce.Net60Test\bin\Release\net8.0-windows\
   Solution: ${{github.event.repository.name}}.sln
   Executable: ${{github.event.repository.name}}.exe
 
